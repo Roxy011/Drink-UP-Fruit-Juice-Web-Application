@@ -1,0 +1,138 @@
+body{
+    background-color: rgb(241, 189, 94);
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+img{
+    height: 100px;
+    background-color: rgb(241, 178, 62);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+input{
+    border: none;
+    border-radius: 10px;
+    height: 25px;
+    width: 190px;
+    background-color: rgb(242, 206, 138);
+}
+
+button{
+    background-color: rgb(237, 187, 93);
+    border: none;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: rgb(154, 102, 6);
+    border: none;
+    align-items: center;
+    border-radius: 20px;
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+
+#con{
+    left: 15%;
+    position: absolute;
+    bottom: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+#pay{
+    right: 15%;
+    position: absolute;
+    bottom: 20px;
+    height: 40px;
+    width: 150px;
+}
+
+
+.content{
+    border-radius: 25px;
+    background-color: rgb(189, 126, 8);
+    width: 30%;
+    height: 75%;
+    padding: 30px;
+    position: absolute;
+    top: 3%;
+    left: 33%;
+    right: 30%;
+    bottom: 30%;
+}
+
+.bg{
+    background-color: white;
+}
+
+
+
+span #count{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+span #price{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+span #item{
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bolder;
+    font-size: 1em;
+}
+
+footer{
+    align-items: center;
+    border-radius: 10px;
+    text-align: center;
+    width: 95%;
+    height: 10%;
+    position: absolute;
+    left: 2%;
+    bottom: 1%;
+    background-color: rgb(227, 153, 16);
+    padding: 3px;
+}
+
+
+#qrcode{
+    position: absolute;
+    bottom: 22%;
+    left: 45%;
+    right: 30%;
+    height: 140px;
+}
+
+.payment{
+    border-radius: 6px;
+    position: absolute;
+    bottom: 14%;
+    left: 43.5%;
+    right: 45%;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+.payment:hover{
+    color: white;
+}
+
+.pricetags{
+    font-size: 1em;
+    font-weight: bolder;
+}

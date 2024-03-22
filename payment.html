@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="paystyle.css">
+    <link rel="script" href="script.js">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drink-UP/addcount</title>
+</head>
+<body>
+
+    <div class="content">
+        <a href="count.html"><img src="Images/Logo.png" alt="Logo"></a>
+        <br><br>
+        <h3>ITEM&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            PRICE&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|&nbsp;
+            &nbsp;&nbsp;&nbsp;&nbsp;COUNT</h3>
+
+        <br>
+
+        <p class="pricetags">Mango&nbsp;&nbsp;|&nbsp;&nbsp;Rs.60&nbsp;&nbsp;|&nbsp;&nbsp;1</p>
+        <p class="pricetags">Apple&nbsp;&nbsp;|&nbsp;&nbsp;Rs.70&nbsp;&nbsp;|&nbsp;&nbsp;1</p>
+        <p class="pricetags">Orange&nbsp;&nbsp;|&nbsp;&nbsp;Rs.70&nbsp;&nbsp;|&nbsp;&nbsp;1</p>
+        <br>
+        <h3 style="position: absolute; top: 56%; left: 30%; font-size: 1.6em;">TOTAL:&nbsp;&nbsp; <span class="total">Rs.200</span></h3>
+
+        <br>
+    </div>
+
+    <img id="qrcode" src="Images/qrcode.jpg" alt="QR-CODE">
+    <br><br>
+    <h3 style="background-color: orange;width: 200px; padding: 3px;" class="payment"> PAY USING QR CODE </h3>
+
+    <footer class="foot">
+        <button id="con" type="button" onclick="location.href='main_page.html'">Back</h2></button>
+        <button id="pay" onclick="popUp()" type="submit">Done!</button>
+    </footer>
+
+    <script>
+        function popUp() {
+            alert("You Have Successfully Paid!!");
+            if(true){
+                location.href="main_page.html";
+            }
+        }
+    </script>
+
+</body>
+</html>
